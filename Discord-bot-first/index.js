@@ -9,6 +9,7 @@ client.on('message', msg =>{
     try{
         if(msg.content === '!ping') msg.channel.send('pong~!');
         if(msg.content === '!avatar') msg.channel.send(msg.author.displayAvatarURL());
+        if(msg.content === '!info') msg.channel.send(msg.guild.id());
     }catch(e){
         console.log(e);
     }
