@@ -36,7 +36,7 @@ client.on('message', msg => {
         //     .setTitle("당신의 이름은"+ nick+"입니다.");
             
         //     msg.reply({ embeds : [embed2] })
-        // }
+        // } 
         // if(msg.content === '!test'){
 
         //     console.log("username : "+ msg.author.name);
@@ -58,7 +58,7 @@ client.on('message', msg => {
             msg.reply({ embeds : [recruitment] })
 
             .then((msg2) => {
-                msg2.react("⭐")
+                msg2.react("⭐") 
             }) 
 
         }
